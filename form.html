@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style>
+*{
+	box-sizing: border-box;
+}
+body{
+	background: url('img5.gif');
+	background-size: cover;
+}
+.wrap{
+	max-width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 20px;
+	font-family: sans-serif;
+	background:#fff;
+	border-radius: 10px;
+
+}
+.wrap h2{
+	font-size: 2em;
+	text-align: center;
+}
+button{
+	padding: 10px;
+	width:49%;
+	box-sizing: border-box;
+	border: none;
+	font-size: 1.3em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+button a{
+	text-decoration: none;
+	color:white;
+}
+button:nth-child(1){
+	background-color: #0548ff;
+}
+button:nth-child(2){
+	background-color:#ff6600;
+	color:red;
+}
+button:hover{
+	background-color: #d6a3d1;
+
+}
+.fa{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+form{
+	margin-top: 30px;
+
+}
+input[type=text],input[type=password],input[type=submit]{
+	width:100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	font-size: 17px;
+	border-radius: 5px;
+	outline:none;
+	border:none;
+	border: 2px solid grey;
+}
+label{
+	font-size: 20px;
+	font-weight: bold;
+}
+input[type=submit]{
+	background:#ff66ff;
+	border:none;
+	border-radius: 180px;
+	color: #fff;
+	font-size:20px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 15px;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: #ff4d4d;
+
+}
+p{
+	text-align: center;
+}
+p a{
+	text-decoration: none;
+	font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+	<div class="wrap">
+		<h2>Log in With</h2>
+		<div class="social-media">
+			<button><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i>FACEBOOK</a></button>
+			<button><a href="https://mail.google.com/"><i class="fa fa-google"></i>GOOGLE</a></button>
+			</div>
+			<form>
+				<label>Username:</label><br>
+				<input type="text" name="username">
+				<label>Password:</label><br>
+				<input type="password" name="password">
+				<input type="submit" value="Log-In">
+			</form>
+			<p>Not a Member?<a href="#">SIGN-UP NOW</a></p>
+		</div>
+	</div>
+
+</body>
+</html>
